@@ -39,7 +39,7 @@ public class Date
         _month = month;
         _year = year;
         _isValid = isValidDate(_day ,_month,_year);
-        if(_isValid==true)
+        if(_isValid)
         {
             _day = day;
             _month = month;
@@ -51,11 +51,10 @@ public class Date
             _month = DEFAULT_MONTH;
             _year = DEFAULT_YEAR;
         }
-    }//end of Date
+    }//end of Date constructor
 
     /**
      * Copy constructor
-     * other - the date to be copied
      * @param other date copied
      */
 //copy constructor
@@ -78,7 +77,7 @@ public class Date
             _month = DEFAULT_MONTH;
             _year = DEFAULT_YEAR;
         }
-    }//end of Date.other
+    }//end of Date.other constructor
 //checks if date is valid:
 
     public boolean isValidDate(int _day, int _month, int _year)
