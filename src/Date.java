@@ -189,6 +189,7 @@ public class Date
         return dateToReturn;
     }//end of toString
 
+    //Gets & Sets
    /** gets the year */
     public int getYear()
         {
@@ -225,7 +226,7 @@ public class Date
     public void  setDay(int dayToSet){
         _day = dayToSet;
     }
-
+//End of Gets & Sets
     /**
      * check the difference between dates in days
      * @param other - the difference between dates
